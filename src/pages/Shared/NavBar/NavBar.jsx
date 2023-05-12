@@ -16,7 +16,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 h-28 mb-4">
+    <div className="navbar bg-base-100 h-28 mb-12">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -50,7 +50,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-outline btn-warning">Appointment</button>
+        <button className="btn btn-outline btn-success">Appointment</button>
       </div>
     </div>
   );
