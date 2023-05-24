@@ -47,7 +47,7 @@ const AuthProvider = ({ children }) => {
         const loggedUserEmail = {
           email: currentUser.email,
         };
-        fetch("http://localhost:5000/jwt", {
+        fetch("https://car-doctor-server-pi-murex.vercel.app/jwt", {
           method: "POST",
           headers: {
             "content-type": "application/json",
